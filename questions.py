@@ -67,6 +67,7 @@ def load_files(directory):
             with open(os.path.join(path, filename), encoding="utf8") as f:
                 filenames[filename] = f.read()
 
+    print("loading files...")
     return filenames
 
 
